@@ -41,10 +41,10 @@ def replace_substrings(input_string: str) -> str:
 
 
 if __name__ == "__main__":
-    part_1_list = read_lines_from_file(file_path='day1.txt')
+    part_1_list = read_lines_from_file(file_path='txts/day1.txt')
     part_1_ans = get_calibration_values_total(input_list=part_1_list, part_2=False)
     print(f"Part 1: {part_1_ans}")
 
-    part_2_list = read_lines_from_file(file_path='day1.txt')
+    part_2_list = read_lines_from_file(file_path='txts/day1.txt')
     part_2_ans = get_calibration_values_total(input_list=part_2_list, part_2=True)
     print(f"Part 2: {part_2_ans}")
